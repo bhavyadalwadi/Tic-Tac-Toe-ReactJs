@@ -1,0 +1,79 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+.title{
+ font-size: 25px;
+}
+.game-info {
+    margin-left: 20px;
+}
+.resetButton{
+    margin-top: 10px;
+    font-size: xx-large;
+    border-radius: .25rem;
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+    display: block;
+    width: 100%;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.resetButton:hover{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    text-decoration: none;
+}
+
+.displayblock {
+    display: block;
+}
+.displayNone{
+    display: none;
+}
