@@ -1,0 +1,71 @@
+{
+  "repo": "Tic-Tac-Toe-ReactJs",
+  "title": "Tic-Tac-Toe-ReactJs",
+  "purpose": "Small React tic-tac-toe project with named players, turn handling, winner detection, and a lightweight browser UI.",
+  "domains": [
+    "web app",
+    "game",
+    "learning"
+  ],
+  "tech_stack": [
+    "Node.js",
+    "React",
+    "JavaScript"
+  ],
+  "features": [
+    "Two-player name entry before the game starts",
+    "3x3 board rendered through React components",
+    "Turn switching between X and O",
+    "Winner detection through `calculateWinner()` logic",
+    "Simple reset flow after a completed round"
+  ],
+  "pending_state": "unknown",
+  "pending_items": [],
+  "status_confidence": "medium",
+  "main_modules": [
+    "src",
+    "public"
+  ],
+  "key_flows": [
+    "graphify-out/GRAPH_REPORT.md",
+    "package.json",
+    "src/index.js"
+  ],
+  "known_outputs": [
+    "graphify-out/graph.json",
+    "graphify-out/graph.html",
+    "graphify-out/GRAPH_REPORT.md"
+  ],
+  "current_work_guess": "This is a completed or paused React learning exercise rather than an actively evolving app.",
+  "likely_entrypoints": [
+    "README.md",
+    "src/index.js",
+    "package.json"
+  ],
+  "notable_docs": [
+    "README.md",
+    "src/index.js"
+  ],
+  "graph_stats": "33 nodes \u00b7 33 edges \u00b7 6 communities (3 shown, 3 thin omitted)",
+  "god_nodes": [
+    "scripts",
+    "Board",
+    "dependencies",
+    "Game",
+    "calculateWinner()"
+  ],
+  "llm_start_here": [
+    "README.md",
+    "src/index.js",
+    "graphify-out/repo-semantic-summary.md"
+  ],
+  "suggested_next_steps": [
+    "Add a restart button managed through React state instead of direct DOM manipulation",
+    "Add draw-state handling if you want the game logic to feel more complete"
+  ],
+  "evidence_files": [
+    "README.md",
+    "src/index.js",
+    "package.json"
+  ]
+}
