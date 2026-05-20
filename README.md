@@ -1,4 +1,6 @@
-# Tic-Tac-Toe-ReactJs
+# Tic-Tac-Toe-ReactJs [Archived]
+
+Status: Archived. Kept as older practice work.
 
 Small React tic-tac-toe project with named players, turn handling, winner detection, and a lightweight browser UI.
 
