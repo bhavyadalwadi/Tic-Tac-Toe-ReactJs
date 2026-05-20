@@ -37,3 +37,7 @@ This repo is a compact front-end exercise for React component state, event handl
 
 - Shows basic React state management and game-flow logic
 - Best treated as a compact learning/demo project rather than a major showcase app
+
+## Maintenance note
+
+- TODO: archive this repo later if you want a stricter recruiter-facing GitHub profile
